@@ -6,6 +6,7 @@
         :loop="false"
         :pagination="swiperOptions.pagination"
         :effect="'fade'"
+        :autoplay="swiperOptions.autoplay"
       >
         <swiper-slide v-for="slide in sliders" :key="slide.id">
           <div
@@ -39,7 +40,9 @@
 <script>
 import { Swiper, SwiperSlide } from "swiper/vue";
 import SwiperCore, { Pagination, EffectFade } from "swiper/core";
+import { Autoplay } from "swiper";
 SwiperCore.use([Pagination, EffectFade]);
+SwiperCore.use([Autoplay]);
 
 export default {
   components: {
@@ -49,6 +52,10 @@ export default {
   data() {
     return {
       swiperOptions: {
+        autoplay: {
+          delay: 5000, // 每張切換的時間（毫秒）
+          disableOnInteraction: false, // 使用者互動後是否停止自動播放（false = 不會停）
+        },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
