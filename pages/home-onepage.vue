@@ -41,7 +41,7 @@
     <!-- updates -->
     <div class="bk-blog-grid-area ptb--120 ptb-md--80 ptb-sm--80 bg_color--10">
       <div class="container">
-        <div class="row">
+        <div class="row gy-4">
           <div
             class="col-lg-4 col-sm-6 move-up wow"
             v-for="blog in data.blogs.slice(6, 9)"
