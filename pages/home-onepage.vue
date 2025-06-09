@@ -1,8 +1,12 @@
 <template>
   <div class="main-container">
-    <HeaderOnepageMirror
+    <!-- <HeaderOnepageMirror
       @toggleFullpageMenu="fullpageOpen = !fullpageOpen"
       @togglenav="navOpen = !navOpen"
+    /> -->
+    <HeaderBlack
+      @togglenav="navOpen = !navOpen"
+      @toggleSearch="searchOpen = !searchOpen"
     />
     <OffcanvasMenu
       :class="{ 'is-visiable': fullpageOpen }"
