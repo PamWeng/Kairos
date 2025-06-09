@@ -8,9 +8,10 @@
               <img
                 :src="
                   props?.imgList[0].url ||
-                  `/img/portfolio/portfolio-1/portfolio-.jpg`
+                  `/img/portfolio/portfolio-1/portfolio-1.jpg`
                 "
                 :alt="props?.imgList[0].text || `Portfolio Images`"
+                style="aspect-ratio: 1/1; object-fit: cover"
               />
             </div>
             <div class="port-overlay-info">
@@ -38,6 +39,7 @@
                       `/img/portfolio/portfolio-1/portfolio-2.jpg`
                     "
                     :alt="props?.imgList[1].text || `Portfolio Images`"
+                    style="aspect-ratio: 2/1; object-fit: cover"
                   />
                 </div>
                 <div class="port-overlay-info">
@@ -63,6 +65,7 @@
                       `/img/portfolio/portfolio-1/portfolio-3.jpg`
                     "
                     :alt="props?.imgList[2].text || `Portfolio Images`"
+                    style="aspect-ratio: 1/1; object-fit: cover"
                   />
                 </div>
                 <div class="port-overlay-info">
@@ -88,6 +91,7 @@
                       `/img/portfolio/portfolio-1/portfolio-4.jpg`
                     "
                     :alt="props?.imgList[3].text || `Portfolio Images`"
+                    style="aspect-ratio: 1/1; object-fit: cover"
                   />
                 </div>
                 <div class="port-overlay-info">
@@ -117,3 +121,10 @@ const props = defineProps({
   },
 });
 </script>
+<style scoped>
+.fill_container {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
