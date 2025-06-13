@@ -9,26 +9,19 @@
         :autoplay="swiperOptions.autoplay"
       >
         <swiper-slide v-for="slide in sliders" :key="slide.id">
-          <div
-            class="hero-item bg-image"
-            :style="{ backgroundImage: `url(${slide.bgImage})` }"
-          >
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="hero-content-2 center">
-                    <h6>{{ slide.subHeading }}</h6>
-                    <h3>{{ slide.heading }}</h3>
-                    <nuxt-link
-                      to="/about-us-01"
-                      class="brook-btn bk-btn-white btn-sd-size btn-rounded space-between"
-                      >Explore Now</nuxt-link
-                    >
-                  </div>
+          <nuxt-link to="/about-us-01">
+            <div
+              class="hero-item bg-image"
+              :style="{ backgroundImage: `url(${slide.bgImage})` }"
+            >
+              <div class="container">
+                <div class="hero-content-2">
+                  <h6>{{ slide.subHeading }}</h6>
+                  <h3>{{ slide.heading }}</h3>
                 </div>
               </div>
             </div>
-          </div>
+          </nuxt-link>
         </swiper-slide>
       </swiper>
       <!-- Add Pagination -->
@@ -68,7 +61,7 @@ export default {
       sliders: [
         {
           id: 1,
-          heading: "",
+          heading: "revolutionary creations and exquisite designs.",
           subHeading: "WE WORK SMART, WE PLAY HARD",
           bgImage: "/img/goodIdea/UI-market-with-sprout.png",
         },
@@ -89,3 +82,21 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.container {
+  margin-top: auto;
+}
+.hero-content-2 {
+  h3,
+  h6 {
+    text-align: right;
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-size: 38px;
+  }
+}
+.hero-item {
+  padding: 120px 80px;
+}
+</style>
