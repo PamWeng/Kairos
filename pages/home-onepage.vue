@@ -87,10 +87,17 @@
         v-for="blog in data.blogs.slice(0, 6)"
         :key="blog.id"
       >
-        <div class="blog-grid-minimal">
+        <div
+          class="blog-grid-minimal"
+          :style="{
+            backgroundColor: `${blog.bgColor}`,
+          }"
+        >
           <div
             class="grid-overlay"
-            :style="{ backgroundImage: `url(${blog.image})` }"
+            :style="{
+              backgroundImage: `url(${blog.image})`,
+            }"
           ></div>
           <div class="post-content">
             <div class="post-meta">

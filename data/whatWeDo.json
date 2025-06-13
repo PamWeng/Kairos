@@ -10,7 +10,8 @@
       "image": "/img/goodIdea/IMG_5623.jpg",
       "alt": "blog image",
       "categories": ["photography", "digital"],
-      "tags": ["photography", "digital"]
+      "tags": ["photography", "digital"],
+      "bgColor": "#0EB681"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "image": "/img/goodIdea/_MG_9401.jpg",
       "alt": "blog image",
       "categories": ["life style", "digital"],
-      "tags": ["life style", "digital"]
+      "tags": ["life style", "digital"],
+      "bgColor": "#FFDD33"
     },
     {
       "id": 3,
@@ -30,7 +32,8 @@
       "image": "/img/goodIdea/PXL_20250517_025747471.PORTRAIT.jpg",
       "alt": "blog image",
       "categories": ["marketing", "photography"],
-      "tags": ["marketing", "photography"]
+      "tags": ["marketing", "photography"],
+      "bgColor": "#F8675B"
     },
 
     {
@@ -41,7 +44,8 @@
       "image": "/img/goodIdea/IMG_7769.jpg",
       "alt": "blog image",
       "categories": ["life style", "photography"],
-      "tags": ["life style", "photography"]
+      "tags": ["life style", "photography"],
+      "bgColor": "#F8675B"
     },
     {
       "id": 5,
@@ -51,7 +55,8 @@
       "image": "/img/goodIdea/IMG_8877.jpg",
       "alt": "blog image",
       "categories": ["life style", "digital"],
-      "tags": ["life style", "digital"]
+      "tags": ["life style", "digital"],
+      "bgColor": "#0EB681"
     },
     {
       "id": 6,
@@ -61,7 +66,8 @@
       "image": "/img/goodIdea/img_11.png",
       "alt": "blog image",
       "categories": ["portfolio", "corona"],
-      "tags": ["portfolio", "corona"]
+      "tags": ["portfolio", "corona"],
+      "bgColor": "#5EC8F0"
     },
     {
       "id": 7,
