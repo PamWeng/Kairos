@@ -2,7 +2,7 @@
   <nav class="page_nav">
     <ul class="mainmenu">
       <li class="lavel-1 slide--megamenu">
-        <nuxt-link to="/">
+        <nuxt-link to="/home-masonry-gallery">
           <span>News & Blog</span>
         </nuxt-link>
       </li>
@@ -18,17 +18,17 @@
                 About Us
                 <ul>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-grid-boxed"
+                    <nuxt-link to="/blog/blog-details"
                       ><span>Vision & Mission</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-grid-wide"
+                    <nuxt-link to="/blog/blog-details"
                       ><span>Tainan Local Roots</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-with-caption"
+                    <nuxt-link to="/blog/blog-details"
                       ><span>Government Partnership</span></nuxt-link
                     >
                   </li>
@@ -38,17 +38,17 @@
                 Digital Nomads
                 <ul>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-ajax-filter"
+                    <nuxt-link to="/blog/blog-details"
                       ><span>Tainan Nomad Hub</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-grid-filter"
+                    <nuxt-link to="/blog/blog-details"
                       ><span>Digital Nomad Visa</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-details"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>International Community</span></nuxt-link
                     >
                   </li>
@@ -64,17 +64,17 @@
                   </li>
 
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-grid-filter"
+                    <nuxt-link to="/portfolio/portfolio-details"
                       ><span>Family & Kids Hub</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-ajax-filter"
+                    <nuxt-link to="/portfolio/portfolio-details"
                       ><span>Kitchen Commons</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/portfolio/portfolio-ajax-filter"
+                    <nuxt-link to="/portfolio/portfolio-details"
                       ><span> Creative Lab</span></nuxt-link
                     >
                   </li>
@@ -96,12 +96,12 @@
                 Code
                 <ul>
                   <li>
-                    <nuxt-link to="/element/brand-logo"
+                    <nuxt-link to="/blog/blog-grid-mesonry"
                       ><span>Web Camp</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/element/flexible-image-slider"
+                    <nuxt-link to="/blog/blog-grid-mesonry"
                       ><span>Backend camp</span></nuxt-link
                     >
                   </li>
@@ -111,27 +111,27 @@
                 Creativity
                 <ul>
                   <li>
-                    <nuxt-link to="/element/tab"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>SDGs & UN 2.0 School</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/element/gradation"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>Future Food Studio</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/element/message-box"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>Worldschooling</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/element/pricing-box"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>Creative Lab Programs</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/element/dividers"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>Sustainability for Everyone</span></nuxt-link
                     >
                   </li>
@@ -141,12 +141,12 @@
                 Life
                 <ul>
                   <li>
-                    <nuxt-link to="/element/team"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span>Community Meals</span></nuxt-link
                     >
                   </li>
                   <li>
-                    <nuxt-link to="/element/testimonial"
+                    <nuxt-link to="/portfolio/portfolio-grid-filter"
                       ><span> Family Workshops</span></nuxt-link
                     >
                   </li>
