@@ -16,8 +16,8 @@
                 :autoplay="swiperOptions.autoplay"
                 :breakpoints="swiperOptions.breakpoints"
                 class="marquee-swiper"
-                @swiper="register"
               >
+                <!-- @swiper="register" -->
                 <!-- @autoplay-pause="onPause"
                 @autoplay-resume="onResume" -->
                 <!-- :grab-cursor="false" -->
