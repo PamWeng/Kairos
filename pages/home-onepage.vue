@@ -70,15 +70,10 @@
     </CurveShape> -->
     <!-- <MusicianIconBox /> -->
     <!-- divider -->
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="text-center mb--50 mt--50">
-          <h6 class="heading font-blod theme-color">WHAT WE DO</h6>
-          <div class="bkseparator--40"></div>
-          <h2 class="heading heading-font">News, Roots, Impact</h2>
-        </div>
-      </div>
-    </div>
+    <HomeDivider
+      :text="{ title: 'what we do', content: 'Updates, Roots, Impact' }"
+      :img="'IMG_5939.jpg'"
+    />
     <!-- divider end-->
     <!-- what we do section -->
     <div class="row row--30 pl--30 pr--30 pb--60 bg_color--5">
