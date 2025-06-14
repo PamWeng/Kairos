@@ -1,5 +1,5 @@
 <template>
-  <div class="bk-brand-area bg_color--1 ptb--60">
+  <div class="bk-brand-area ptb--30">
     <div class="">
       <div class="row">
         <div class="col-lg-12">
@@ -28,7 +28,9 @@
                   :key="brand.id"
                 >
                   <nuxt-link to="/">
-                    <img :src="brand.logo" alt="logo image" />
+                    <div class="logo_container">
+                      <img :src="brand.logo" alt="logo image" />
+                    </div>
                   </nuxt-link>
                 </swiper-slide>
               </swiper>
@@ -64,13 +66,13 @@ export default {
         },
         breakpoints: {
           1200: {
-            slidesPerView: 5,
+            slidesPerView: 7,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 5,
           },
           480: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
         },
       },
@@ -112,6 +114,15 @@ export default {
 .marquee-swiper {
   :deep(.swiper-wrapper) {
     transition-timing-function: linear;
+  }
+}
+.bk-brand-area {
+  background-color: #faf5eb;
+}
+.logo_container {
+  height: 50px;
+  img {
+    height: 100%;
   }
 }
 </style>
