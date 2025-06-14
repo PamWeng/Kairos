@@ -43,7 +43,7 @@
     <!-- divider end -->
 
     <!-- updates -->
-    <div class="bk-blog-grid-area ptb--120 ptb-md--80 ptb-sm--80 bg_color--10">
+    <div class="bk-blog-grid-area ptb--50 ptb-md--80 ptb-sm--80 bg_color--10">
       <div class="container">
         <div class="row gy-4">
           <div

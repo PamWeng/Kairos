@@ -1,6 +1,6 @@
 <template>
   <div class="brook-icon-boxes-area plr--100 plr_lg--50 plr_md--50 plr_sm--5">
-    <div class="ptb--150 ptb-md--80 ptb-sm--80 bg_color--15">
+    <div class="ptb--50 ptb-md--80 ptb-sm--80 bg_color--15">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
