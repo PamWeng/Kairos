@@ -16,8 +16,8 @@
         </div>
         <div class="row mt--30">
           <div
-            class="col-lg-4 col-sm-6 mt--40 wow move-up"
-            v-for="service in data.services.slice(0, 3)"
+            class="col-lg-3 col-sm-6 mt--40 wow move-up"
+            v-for="service in data.services.slice(0, 4)"
             :key="service.id"
           >
             <IconBoxItemOne
