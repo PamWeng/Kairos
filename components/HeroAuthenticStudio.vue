@@ -63,19 +63,19 @@ export default {
           id: 1,
           heading: "revolutionary creations and exquisite designs.",
           subHeading: "WE WORK SMART, WE PLAY HARD",
-          bgImage: "img/goodIdea/UI-market-with-sprout.png",
+          bgImage: useAssetUrl("img/goodIdea/UI-market-with-sprout.png"),
         },
         {
           id: 2,
           heading: "revolutionary creations and exquisite designs.",
           subHeading: "WE WORK SMART, WE PLAY HARD",
-          bgImage: "img/goodIdea/DSC00230.jpg",
+          bgImage: useAssetUrl("img/goodIdea/DSC00230.jpg"),
         },
         {
           id: 3,
           heading: "revolutionary creations and exquisite designs.",
           subHeading: "WE WORK SMART, WE PLAY HARD",
-          bgImage: "img/goodIdea/20250412-3.jpg",
+          bgImage: useAssetUrl("img/goodIdea/20250412-3.jpg"),
         },
       ],
     };
