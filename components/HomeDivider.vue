@@ -3,7 +3,7 @@
     <div
       class="brook-call-to-action bg_image--9 ptb--50"
       :style="{
-        backgroundImage: `url('/img/goodIdea/${props.img}')`,
+        backgroundImage: `url(${useAssetUrl(`img/goodIdea/${props.img}`)})`,
       }"
     >
       <div class="container">
