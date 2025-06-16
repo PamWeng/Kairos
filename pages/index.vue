@@ -78,7 +78,7 @@
     <!-- what we do section -->
     <div class="row row--30 pl--30 pr--30 pb--60 bg_color--5">
       <div
-        class="col-xl-4 col-6 move-up wow mt--60"
+        class="col-xl-4 col-sm-6 col-12 move-up wow mt--60"
         v-for="blog in data.blogs.slice(0, 6)"
         :key="blog.id"
       >
