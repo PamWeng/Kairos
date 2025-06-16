@@ -72,7 +72,7 @@
     <!-- divider -->
     <HomeDivider
       :text="{ title: 'what we do', content: 'Updates, Roots, Impact' }"
-      :img="useAssetUrl('IMG_5939.jpg')"
+      :img="'IMG_5939.jpg'"
     />
     <!-- divider end-->
     <!-- what we do section -->
