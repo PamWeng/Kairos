@@ -72,7 +72,7 @@
     <!-- divider -->
     <HomeDivider
       :text="{ title: 'what we do', content: 'Updates, Roots, Impact' }"
-      :img="'IMG_5939.jpg'"
+      :img="useAssetUrl('IMG_5939.jpg')"
     />
     <!-- divider end-->
     <!-- what we do section -->
@@ -91,7 +91,7 @@
           <div
             class="grid-overlay"
             :style="{
-              backgroundImage: `url(${blog.image})`,
+              backgroundImage: `url(${useAssetUrl(blog.image)})`,
             }"
           ></div>
           <div class="post-content">
@@ -141,7 +141,9 @@
 
     <div
       class="bg_image--34 ptb--130 ptb-md--80 ptb-sm--80"
-      :style="{ backgroundImage: `url('/img/goodIdea/IMG_5939.jpg')` }"
+      :style="{
+        backgroundImage: `url(${useAssetUrl('/img/goodIdea/IMG_5939.jpg')})`,
+      }"
     >
       <div class="container">
         <div class="row align-items-center">
@@ -280,10 +282,22 @@ export default {
         },
       },
       whatWeDoImgList: [
-        { url: "img/goodIdea/img_21.png", text: "UIJ-market-at-night" },
-        { url: "img/goodIdea/S__325255199_0.jpg", text: "little-village-xmas" },
-        { url: "img/goodIdea/S__325255198_0.jpg", text: "make-cookies" },
-        { url: "img/goodIdea/IMG_7610.jpg", text: "future-factory" },
+        {
+          url: useAssetUrl("img/goodIdea/img_21.png"),
+          text: "UIJ-market-at-night",
+        },
+        {
+          url: useAssetUrl("img/goodIdea/S__325255199_0.jpg"),
+          text: "little-village-xmas",
+        },
+        {
+          url: useAssetUrl("img/goodIdea/S__325255198_0.jpg"),
+          text: "make-cookies",
+        },
+        {
+          url: useAssetUrl("img/goodIdea/IMG_7610.jpg"),
+          text: "future-factory",
+        },
       ],
     };
   },

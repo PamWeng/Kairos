@@ -4,7 +4,7 @@
       <nuxt-link :to="`/blog/${blog.slug}`">
         <div style="height: 241px">
           <img
-            :src="blog.image"
+            :src="useAssetUrl(blog.image)"
             :alt="blog.title"
             style="height: 100%; object-fit: cover"
           />

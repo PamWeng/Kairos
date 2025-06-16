@@ -29,7 +29,7 @@
                 >
                   <nuxt-link to="/">
                     <div class="logo_container">
-                      <img :src="brand.logo" alt="logo image" />
+                      <img :src="useAssetUrl(brand.logo)" alt="logo image" />
                     </div>
                   </nuxt-link>
                 </swiper-slide>
