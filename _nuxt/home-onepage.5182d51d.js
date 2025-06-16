@@ -1,0 +1,1 @@
+import{_ as t,c as n,b as o,o as s}from"./entry.6db42c19.js";const a={};function r(c,e){return s(),n("div",null,e[0]||(e[0]=[o("h1",null,"this is a empty page",-1)]))}const p=t(a,[["render",r]]);export{p as default};
