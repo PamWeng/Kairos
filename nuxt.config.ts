@@ -25,8 +25,8 @@ export default defineNuxtConfig({
     //   failOnError: false, // 先忽略 prerender 錯誤
     // },
   },
-  plugins: ["@/plugins/aos"],
-
+  // plugins: ["@/plugins/aos"],
+  plugins: ["@/plugins/aos.client"],
   //deploy
 
   app: {
